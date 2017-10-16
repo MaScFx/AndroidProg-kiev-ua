@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="5dp"
-    android:columnCount="3"
-    android:rowCount="4"
+    app:columnCount="3"
+    app:rowCount="5"
     tools:context="com.example.admin.l2hwgridlayout.MainActivity">
 
 
@@ -23,12 +24,7 @@
         android:id="@+id/button2"
         style="@style/ButtonApp"
         android:text="@string/btnName" />
-   <!-- android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_columnWeight="1"
-    android:layout_margin="1dp"
-    android:layout_rowWeight="1"
-    android:layout_gravity="fill"-->
+
 
     <Button
         android:id="@+id/button3"
@@ -74,4 +70,20 @@
         android:id="@+id/button11"
         style="@style/ButtonApp"
         android:text="@string/btnName" />
-</GridLayout>
+
+    <ImageButton
+        android:id="@+id/buttonDial"
+        style="@style/ButtonAppDown"
+        android:src="@mipmap/call100_32"
+        android:shadowColor="@android:color/background_dark"
+        android:text="@string/btnName" />
+    <Button
+        android:id="@+id/buttonAPP"
+        style="@style/ButtonAppDown"
+        android:text="@string/APP" />
+    <ImageButton
+        android:id="@+id/buttonSMS"
+        android:src="@mipmap/arrow"
+        style="@style/ButtonAppDown"
+        android:text="@string/btnName" />
+</android.support.v7.widget.GridLayout>
