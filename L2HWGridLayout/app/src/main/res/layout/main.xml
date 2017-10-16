@@ -70,16 +70,20 @@
         android:id="@+id/button11"
         style="@style/ButtonApp"
         android:text="@string/btnName" />
-    <Button
-        android:id="@+id/button12"
+
+    <ImageButton
+        android:id="@+id/buttonDial"
         style="@style/ButtonAppDown"
+        android:src="@mipmap/call100_32"
+        android:shadowColor="@android:color/background_dark"
         android:text="@string/btnName" />
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/buttonAPP"
         style="@style/ButtonAppDown"
-        android:text="@string/btnName" />
-    <Button
-        android:id="@+id/button14"
+        android:text="@string/APP" />
+    <ImageButton
+        android:id="@+id/buttonSMS"
+        android:src="@mipmap/arrow"
         style="@style/ButtonAppDown"
         android:text="@string/btnName" />
 </android.support.v7.widget.GridLayout>
