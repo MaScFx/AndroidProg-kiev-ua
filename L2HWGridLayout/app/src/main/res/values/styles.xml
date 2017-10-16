@@ -10,12 +10,20 @@
     <style name="ButtonApp">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_columnWeight" tools:targetApi="lollipop">1</item>
+        <item name="layout_columnWeight">1</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="layout_rowWeight">40</item>
+        <item name="android:layout_gravity">fill</item>
+
+        </style>
+    <style name="ButtonAppDown">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="layout_columnWeight">1</item>
         <item name="android:layout_margin">1dp</item>
         <item name="layout_rowWeight">1</item>
         <item name="android:layout_gravity">fill</item>
-        <item name="android:layout_rowWeight" tools:targetApi="lollipop">1</item>
 
-        </style>
+    </style>
 
 </resources>
